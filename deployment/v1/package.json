@@ -1,0 +1,25 @@
+{
+    "name": "ethtz-token-deployment",
+    "version": "0.0.3",
+    "description": "ETHtz token deployment script",
+    "scripts": {
+        "postinstall": "npm run build",
+        "build": "tsc ethtz.ts",
+        "start": "node ethtz.js"
+    },
+    "license": "UNLICENSED",
+    "engines": {
+        "node": "12.19.1",
+        "npm": "6.14.8"
+    },
+    "homepage": "https://gist.github.com/anonymoussprocket",
+    "dependencies": {
+        "conseiljs": "5.0.6",
+        "conseiljs-softsigner": "5.0.4.beta-1",
+        "loglevel": "1.7.1",
+        "node-fetch": "2.6.1"
+    },
+    "devDependencies": {
+        "typescript": "3.8.3"
+    }
+}
